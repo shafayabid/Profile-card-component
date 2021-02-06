@@ -1,0 +1,59 @@
+.card_top
+{
+	position: fixed;
+  	top: 35%;
+  	left: 43%;
+  	margin-top: -50px;
+  	margin-left: -100px;
+  	mix-blend-mode: multiply;
+}
+
+.credentials
+{
+	position: fixed;
+  	top: 68%;
+  	left: 52%;
+  	margin-top: -50px;
+  	margin-left: -100px;
+  	background-color: white;
+}
+
+/*.card
+{
+	background-color: red;
+	background-clip: padding-box;
+	padding: 10px 25px 4px 11px;
+}*/
+
+hr
+{	
+	position: fixed;
+	top: 72%;
+	left: 36.25%;
+}
+
+.picture
+{
+	position: fixed;
+  	top: 50%;
+  	left: 52.5%;
+  	margin-top: -50px;
+  	margin-left: -100px;
+  	
+  	border-radius: 100px;
+    overflow: hidden;
+
+    border: 5px solid white;
+}
+.stats
+{
+	position: fixed;
+  	top: 83%;
+  	left: 45%;
+  	margin-top: -50px;
+  	margin-left: -100px;
+}
+body
+{
+	background-color: hsl(185, 75%, 39%);
+}

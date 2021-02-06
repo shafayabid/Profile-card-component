@@ -18,12 +18,10 @@
   	background-color: white;
 }
 
-/*.card
+.card
 {
-	background-color: red;
-	background-clip: padding-box;
-	padding: 10px 25px 4px 11px;
-}*/
+	background-color: white;
+}
 
 hr
 {	
@@ -40,7 +38,7 @@ hr
   	margin-top: -50px;
   	margin-left: -100px;
   	
-  	border-radius: 100px;
+  	border-radius: 50%;
     overflow: hidden;
 
     border: 5px solid white;

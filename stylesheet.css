@@ -1,57 +1,98 @@
+.card 
+{
+	position: relative;
+	top: 0%;
+	left: 0%;
+}
+
 .card_top
 {
-	position: fixed;
-  	top: 35%;
-  	left: 43%;
-  	margin-top: -50px;
-  	margin-left: -100px;
-  	mix-blend-mode: multiply;
+	position: absolute;
 }
 
-.credentials
+.picture
 {
-	position: fixed;
-  	top: 68%;
-  	left: 52%;
-  	margin-top: -50px;
-  	margin-left: -100px;
-  	background-color: white;
+	position: absolute;
+	top: 1000%;
+	left: 10%;
+
+	/*border: 5px solid white;
+	border-collapse: separate;
+	overflow: hidden; 
+	border-radius: 50%;*/
 }
 
-/* .card
+.credentials_name
 {
-	background-color: white;
-} */
+	position: absolute;
+	top: 300%;
+	left: 9.1%;
+
+	font-size: 18px;
+	font-family: 'Kumbh Sans', sans-serif;
+	font-weight: 700;
+}
+
+.credentials_26
+{
+	position: absolute;
+	top: 300%;
+	left: 16.5%;
+}
+
+.credentials_city
+{
+	position: absolute;
+	top: 400%;
+	left: 12%;
+}
 
 hr
-{	
-	position: fixed;
-	top: 72%;
-	left: 36.25%;
+{
+	position: absolute;
+	top: 600%;
+	left: 0%;
 }
 
-/* .picture
+.stats_80k
 {
-	position: fixed;
-  	top: 50%;
-  	left: 52.5%;
-  	margin-top: -50px;
-  	margin-left: -100px;
-  	
-  	border-radius: 50%;
-    overflow: hidden;
+	position: absolute;
+	top: 1000%;
+	left: 2%;
+}
 
-    border: 5px solid white;
-} */
-.stats
+.stats_803k
 {
-	position: fixed;
-  	top: 83%;
-  	left: 45%;
-  	margin-top: -50px;
-  	margin-left: -100px;
+	position: absolute;
+	top: 900%;
+	left: 5%;
 }
-body
+
+.stats_1_4k
 {
-	background-color: hsl(185, 75%, 39%);
+	position: absolute;
+	top: 900%;
+	left: 15%;
 }
+
+.stats_followers
+{
+	position: absolute;
+	top: 1200%;
+	left: 2%;
+}
+
+.stats_likes
+{
+	position: absolute;
+	top: 1200%;
+	left: 5%;
+}
+
+.stats_photos
+{
+	position: absolute;
+	top: 1200%;
+	left: 15%;
+}
+

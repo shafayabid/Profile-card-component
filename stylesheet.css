@@ -1,98 +1,72 @@
-.card 
+.card
 {
 	position: relative;
-	top: 0%;
-	left: 0%;
 }
 
-.card_top
+.profile_pic
 {
 	position: absolute;
-}
-
-.picture
-{
-	position: absolute;
-	top: 1000%;
+	top: 12%;
 	left: 10%;
 
-	/*border: 5px solid white;
+	border: 5px solid white;
 	border-collapse: separate;
 	overflow: hidden; 
-	border-radius: 50%;*/
+	border-radius: 50%;
 }
 
-.credentials_name
+.credentials
 {
 	position: absolute;
-	top: 300%;
-	left: 9.1%;
-
-	font-size: 18px;
-	font-family: 'Kumbh Sans', sans-serif;
-	font-weight: 700;
-}
-
-.credentials_26
-{
-	position: absolute;
-	top: 300%;
-	left: 16.5%;
-}
-
-.credentials_city
-{
-	position: absolute;
-	top: 400%;
-	left: 12%;
+	top: 27%;
+	left: 9%;
 }
 
 hr
 {
 	position: absolute;
-	top: 600%;
-	left: 0%;
+	top: 35%;
+
 }
 
-.stats_80k
+
+
+.stats
 {
 	position: absolute;
-	top: 1000%;
+	top: 40%;
 	left: 2%;
 }
-
-.stats_803k
+.name
 {
-	position: absolute;
-	top: 900%;
-	left: 5%;
+	font-family: 'Kumbh Sans', sans-serif;
+	font-weight: 700;
+	font-size: 18px;
 }
 
-.stats_1_4k
+._26
 {
-	position: absolute;
-	top: 900%;
-	left: 15%;
+	font-size: 18px;
+	color: hsl(0, 0%, 59%);
 }
 
-.stats_followers
+.city
 {
-	position: absolute;
-	top: 1200%;
-	left: 2%;
+	color: hsl(0, 0%, 59%);
+	margin-top: 2em; 
 }
 
-.stats_likes
+.digit
 {
-	position: absolute;
-	top: 1200%;
-	left: 5%;
+	font-family: 'Kumbh Sans', sans-serif;
+	font-weight: 700;
+	font-size: 18px;	
 }
 
-.stats_photos
+.desc
 {
-	position: absolute;
-	top: 1200%;
-	left: 15%;
+	color: hsl(0, 0%, 59%); 
+	font-size: 13px;	
 }
+
 

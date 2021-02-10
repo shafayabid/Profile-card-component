@@ -1,6 +1,10 @@
 .card
 {
 	position: relative;
+	margin-top: 11%;
+	margin-left: 36%;
+	height: 100%;
+	width: 100%;
 }
 
 .profile_pic
@@ -68,5 +72,4 @@ hr
 	color: hsl(0, 0%, 59%); 
 	font-size: 13px;	
 }
-
 

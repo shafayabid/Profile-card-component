@@ -1,14 +1,10 @@
 .card
 {
-	position: relative;
-	
-	margin-top: 11%;
-	margin-left: 36%;
-
-
-
-	height: 100%;
-	width: 100%;
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
 
 	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   	transition: 0.3s;
@@ -16,73 +12,74 @@
 
 }
 
-.card_header
-{
-	border-radius: 5px 5px 0 0;
-
-}
-
-.profile_pic
-{
-	position: absolute;
-	top: 12%;
-	left: 10%;
-
-	border: 5px solid white;
-	border-collapse: separate;
-	overflow: hidden; 
-	border-radius: 50%;
-}
-
 .credentials
 {
-	position: absolute;
-	top: 27%;
-	left: 9%;
-}
-
-hr
-{
-	position: absolute;
-	top: 35%;
-
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	margin-top: 1%;
 }
 
 .stats
 {
-	position: absolute;
-	top: 40%;
-	left: 2%;
-}
-.name
-{
-	font-family: 'Kumbh Sans', sans-serif;
-	font-weight: 700;
-	font-size: 18px;
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-content: center;	
 }
 
-._26
+.followers
 {
-	font-size: 18px;
-	color: hsl(0, 0%, 59%);
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;	
+}
+
+.likes
+{
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;	
+}
+
+.photos
+{
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;	
+}
+
+.pictures
+{
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.profile_pic
+{
+	display: flex;
+	margin-top: -13%
+
+	/*border: 5px solid white;
+	border-collapse: separate;
+	overflow: hidden; 
+	border-radius: 50%;*/
 }
 
 .city
 {
-	color: hsl(0, 0%, 59%);
-	margin-top: 2em; 
+	margin-top: 10%;
 }
 
-.digit
-{
-	font-family: 'Kumbh Sans', sans-serif;
-	font-weight: 700;
-	font-size: 18px;	
-}
-
-.desc
-{
-	color: hsl(0, 0%, 59%); 
-	font-size: 13px;	
-}
 

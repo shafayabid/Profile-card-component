@@ -1,6 +1,11 @@
 body
 {
 	background-color: hsl(185, 75%, 39%);
+	
+	background-image: url(https://raw.githubusercontent.com/shafayabid/Profile-card-component/4e0e214077d8a26ba0560158350bf2d20dd298ed/bg-pattern-top.svg), url(https://raw.githubusercontent.com/shafayabid/Profile-card-component/4e0e214077d8a26ba0560158350bf2d20dd298ed/bg-pattern-bottom.svg);
+	background-repeat: no-repeat, no-repeat;
+	background-position: -50% 130%, 130% -95%;
+
 
 }
 

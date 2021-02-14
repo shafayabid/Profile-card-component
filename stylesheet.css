@@ -1,39 +1,55 @@
+body
+{
+	background-color: hsl(185, 75%, 39%);
+
+}
+
 .card
 {
-	display: flex;
-	align-content: center;
+	display: flex;	
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
 
 	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   	transition: 0.3s;
-  	border-radius: 5px; 
+  	border-radius: 10px; 
+
+  	max-width: 25.8%;
+ 
+  	margin-left: 35%;
+  	margin-top: 10%;
+
+  	background-color: white;
+  
 
 }
 
 .credentials
 {
 	display: flex;
-	align-content: center;
+	
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
-	margin-top: 1%;
+	margin-top: 5%;
 }
 
 .stats
 {
 	display: flex;
-	align-content: center;
+
 	align-items: center;
-	justify-content: center;	
+	justify-content: center;
+
+	margin-bottom: 10%;
+
 }
 
 .followers
 {
 	display: flex;
-	align-content: center;
+
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;	
@@ -42,44 +58,85 @@
 .likes
 {
 	display: flex;
-	align-content: center;
+
 	align-items: center;
 	justify-content: center;
-	flex-direction: column;	
+	flex-direction: column;
+
+	margin-left: 50%;
+	margin-right: 50%;	
 }
 
 .photos
 {
 	display: flex;
-	align-content: center;
+
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;	
 }
 
-.pictures
-{
-	display: flex;
-	align-content: center;
-	align-items: center;
-	justify-content: center;
-	flex-direction: column;
-}
+
 
 .profile_pic
 {
-	display: flex;
-	margin-top: -13%
 
-	/*border: 5px solid white;
+	margin-top: -14%;
+	margin-left: 36%;
+
+	border: 5px solid white;
 	border-collapse: separate;
 	overflow: hidden; 
-	border-radius: 50%;*/
+	border-radius: 50%;
+
+	max-width: 100%;
+  	height: auto;
 }
 
 .city
 {
 	margin-top: 10%;
+	color: hsl(0, 0%, 59%);
+	font-family: 'Kumbh Sans', sans-serif;
+	font-weight: 500;
+	font-size: 13px; 
 }
+
+.card_top
+{
+	border-radius: 10px 10px 0 0;
+	max-width: 100%;
+  	height: auto;
+}
+
+.name
+{
+	font-family: 'Kumbh Sans', sans-serif;
+	font-weight: 700;
+	font-size: 18px;
+}
+
+._26
+{
+	color: hsl(0, 0%, 59%);
+	font-size: 19px;
+	font-weight: 500;
+}
+
+.numbers
+{
+	font-family: 'Kumbh Sans', sans-serif;
+	font-weight: 700;
+	font-size: 18px;
+}
+
+.desc
+{
+
+	font-size: 11px;
+	color: hsl(0, 0%, 59%);	
+}
+
+
 
 
